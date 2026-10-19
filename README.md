@@ -1,16 +1,26 @@
-## Hi there 👋
+# Moamen Dahshan
 
-<!--
-**moamendahshann/moamendahshann** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Artificial Intelligence Engineering Student
+Python • Machine Learning • Data Analysis • Sustainability
 
-Here are some ideas to get you started:
+## About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+I study Artificial Intelligence Engineering at Kafr El Sheikh University in Egypt. I am interested in applying machine learning and data analysis to practical problems, particularly in sustainability.
+
+## International Experience
+
+* **India:** Python project with AIESEC and Vivekananda Global University.
+* **Egypt:** Technical support at the World Urban Forum 12 in Cairo.
+* **Oman:** Contributed to ZaYT TECH, a climate innovation concept selected among the top five projects at the Arab Youth Forum for Climate Action.
+
+## Technical Skills
+
+Python • SQL • Pandas • NumPy • Scikit-learn • Data Visualisation • Classification
+
+## Project Interests
+
+Computer vision, unsupervised learning and energy forecasting, with clear documentation of data, evaluation methods and limitations.
+
+## Contact
+
+[LinkedIn](https://linkedin.com/in/moamendahshan) • [Email](mailto:moamendahshann@gmail.com)
