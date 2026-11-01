@@ -10,10 +10,11 @@ I study **Artificial Intelligence Engineering at Kafr El Sheikh University, Egyp
 
 | Project | What you can explore | Stack | Start here |
 | --- | --- | --- | --- |
-| **[ResearchDesk AI](https://github.com/moamendahshann/researchdesk-ai)** | Search PDFs locally and inspect page-level sources; optional AI synthesis | Python · FastAPI · SQLite · scikit-learn | [Setup & architecture](https://github.com/moamendahshann/researchdesk-ai#readme) |
-| **[NEON FIELD](https://github.com/moamendahshann/neon-hand)** | Control a 3D neon particle field with your hand or mouse | JavaScript · Three.js · MediaPipe | **[Live demo](https://neon-hand-moamen.daringtide16.chatgpt.site)** |
-| **[Digit Classification](https://github.com/moamendahshann/digit-classification)** | Inspect a scaled SVM pipeline, held-out evaluation and prediction errors | Python · scikit-learn · Matplotlib | [Results & method](https://github.com/moamendahshann/digit-classification#results) |
-| **[Energy Forecasting](https://github.com/moamendahshann/energy-forecasting)** | Compare a forecasting model with a seasonal baseline on simulated demand | Python · NumPy · scikit-learn | [Evaluation & limits](https://github.com/moamendahshann/energy-forecasting#results) |
+| **[ResearchDesk AI](https://github.com/moamendahshann/researchdesk-ai)** | Local PDF research workspace with page-level evidence, Arabic and English keyword retrieval, optional AI synthesis and automated tests. | Python · FastAPI · SQLite · scikit-learn | [Setup &amp; architecture](https://github.com/moamendahshann/researchdesk-ai#readme) |
+| **[NEON FIELD](https://github.com/moamendahshann/neon-hand)** | Interactive 3D neon energy controlled by hand tracking or mouse. Three.js + MediaPipe, local camera processing, and an Arabic interface. | JavaScript · Three.js · MediaPipe | **[Live demo](https://neon-hand-moamen.daringtide16.chatgpt.site/)** |
+| **[Digit Classification](https://github.com/moamendahshann/digit-classification)** | Handwritten digit classification with a scaled SVM pipeline, held-out evaluation, a majority baseline and error analysis. | Python · scikit-learn · Matplotlib | [Results &amp; method](https://github.com/moamendahshann/digit-classification#results) |
+| **[Energy Forecasting](https://github.com/moamendahshann/energy-forecasting)** | Synthetic hourly demand forecasting with chronological evaluation and a seasonal baseline. A reproducible time-series experiment. | Python · NumPy · scikit-learn | [Evaluation &amp; limits](https://github.com/moamendahshann/energy-forecasting#results) |
+| **[Wine Clustering](https://github.com/moamendahshann/wine-clustering)** | Exploratory wine-data clustering with KMeans, silhouette-based model selection and PCA visualisation. | Python · scikit-learn · Matplotlib | [README](https://github.com/moamendahshann/wine-clustering#readme) |
 
 <!-- PROJECTS:END -->
 
