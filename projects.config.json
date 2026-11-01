@@ -1,0 +1,12 @@
+{
+  "owner": "moamendahshann",
+  "featured": ["researchdesk-ai", "neon-hand", "digit-classification", "energy-forecasting"],
+  "exclude": [],
+  "projects": {
+    "researchdesk-ai": {"title": "ResearchDesk AI", "stack": "Python · FastAPI · SQLite · scikit-learn", "linkLabel": "Setup & architecture"},
+    "neon-hand": {"title": "NEON FIELD", "stack": "JavaScript · Three.js · MediaPipe"},
+    "digit-classification": {"title": "Digit Classification", "stack": "Python · scikit-learn · Matplotlib", "linkLabel": "Results & method", "anchor": "#results"},
+    "energy-forecasting": {"title": "Energy Forecasting", "stack": "Python · NumPy · scikit-learn", "linkLabel": "Evaluation & limits", "anchor": "#results"},
+    "wine-clustering": {"title": "Wine Clustering", "stack": "Python · scikit-learn · Matplotlib"}
+  }
+}

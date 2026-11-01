@@ -6,6 +6,8 @@ I study **Artificial Intelligence Engineering at Kafr El Sheikh University, Egyp
 
 ## Selected projects
 
+<!-- PROJECTS:START -->
+
 | Project | What you can explore | Stack | Start here |
 | --- | --- | --- | --- |
 | **[ResearchDesk AI](https://github.com/moamendahshann/researchdesk-ai)** | Search PDFs locally and inspect page-level sources; optional AI synthesis | Python · FastAPI · SQLite · scikit-learn | [Setup & architecture](https://github.com/moamendahshann/researchdesk-ai#readme) |
@@ -13,7 +15,7 @@ I study **Artificial Intelligence Engineering at Kafr El Sheikh University, Egyp
 | **[Digit Classification](https://github.com/moamendahshann/digit-classification)** | Inspect a scaled SVM pipeline, held-out evaluation and prediction errors | Python · scikit-learn · Matplotlib | [Results & method](https://github.com/moamendahshann/digit-classification#results) |
 | **[Energy Forecasting](https://github.com/moamendahshann/energy-forecasting)** | Compare a forecasting model with a seasonal baseline on simulated demand | Python · NumPy · scikit-learn | [Evaluation & limits](https://github.com/moamendahshann/energy-forecasting#results) |
 
-Also exploring: **[Wine Clustering](https://github.com/moamendahshann/wine-clustering)** — KMeans model selection and PCA visualisation, without using reference labels to choose the number of clusters.
+<!-- PROJECTS:END -->
 
 ## Tools in this portfolio
 

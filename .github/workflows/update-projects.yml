@@ -1,0 +1,44 @@
+name: Update project table
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/update-projects.mjs
+      - tests/update-projects.test.mjs
+      - projects.config.json
+      - .github/workflows/update-projects.yml
+permissions:
+  contents: write
+concurrency:
+  group: profile-project-table
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+          package-manager-cache: false
+      - name: Test project generation
+        run: node --test tests/update-projects.test.mjs
+      - name: Refresh public repository table
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/update-projects.mjs
+      - name: Commit only when the table changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No project changes."
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- README.md
+          git commit -m 'Update public project table'
+          git push origin HEAD:main
