@@ -1,38 +1,25 @@
-![Moamen Dahshan — AI Engineering student](assets/header.svg)
+![Moamen Dahshan — طالب هندسة الذكاء الاصطناعي](assets/header.svg)
 
-I study **Artificial Intelligence Engineering at Kafr El Sheikh University, Egypt**. My projects explore machine learning, computer vision and tools that help people work with evidence. I am particularly interested in applications related to sustainability.
+أدرس **هندسة الذكاء الاصطناعي في جامعة كفر الشيخ، مصر**. أستخدم مشاريعي التعليمية للتدرّب على تعلّم الآلة، ومعالجة اللغة، والرؤية الحاسوبية، وبناء أدوات بحثية صغيرة. أصف هنا ما يظهر في المستودعات فقط؛ ولا أدرج خبرات مهنية أو نتائج غير موثّقة فيها.
 
-[LinkedIn](https://www.linkedin.com/in/moamendahshan) · [Email](mailto:moamendahshann@gmail.com) · [Try NEON FIELD](https://neon-hand-moamen.daringtide16.chatgpt.site)
+[LinkedIn](https://www.linkedin.com/in/moamendahshan) · [البريد الإلكتروني](mailto:moamendahshann@gmail.com) · [جرّب NEON FIELD](https://neon-hand-moamen.daringtide16.chatgpt.site)
 
-## Selected projects
+## مشاريع مختارة
 
-<!-- PROJECTS:START -->
+| المشروع | ما يقدّمه | تقنيات ظاهرة في المشروع |
+| --- | --- | --- |
+| [ResearchDesk AI](https://github.com/moamendahshann/researchdesk-ai) | مساحة محلية للبحث في ملفات PDF، تعرض المقاطع مع صفحات مصادرها وتدعم البحث بالكلمات بالعربية والإنجليزية، مع توليد إجابات اختياري. | Python · FastAPI · SQLite · TF-IDF |
+| [NEON FIELD](https://github.com/moamendahshann/neon-hand) | تجربة تفاعلية ثلاثية الأبعاد يمكن التحكم بها عبر تتبّع اليد أو الفأرة، وبواجهة عربية. | JavaScript · Three.js · WebGL · MediaPipe |
+| [Sentiment Lens](https://github.com/moamendahshann/sentiment-lens) | نموذج قابل للفحص لتصنيف مشاعر مراجعات إنجليزية، مع عرض الكلمات والسمات المؤثرة في التنبؤ. | JavaScript · TF-IDF · الانحدار اللوجستي |
+| [Digit Classification](https://github.com/moamendahshann/digit-classification) | تجربة تصنيف للأرقام المكتوبة يدويًا باستخدام خط أنابيب SVM وتقييم للأخطاء. | Python · scikit-learn · SVM |
+| [Energy Forecasting](https://github.com/moamendahshann/energy-forecasting) | تجربة قابلة لإعادة التشغيل للتنبؤ بطلب اصطناعي على الطاقة بالساعة، ومقارنته بخط أساس موسمي. | Python · scikit-learn · سلاسل زمنية |
+| [Wine Clustering](https://github.com/moamendahshann/wine-clustering) | تحليل استكشافي لتجميع بيانات النبيذ باستخدام KMeans واختيار عدد العناقيد وعرضها عبر PCA. | Python · scikit-learn · KMeans · PCA |
 
-| Project | What you can explore | Stack | Start here |
-| --- | --- | --- | --- |
-| **[ResearchDesk AI](https://github.com/moamendahshann/researchdesk-ai)** | Local PDF research workspace with page-level evidence, Arabic and English keyword retrieval, optional AI synthesis and automated tests. | Python · FastAPI · SQLite · scikit-learn | [Setup &amp; architecture](https://github.com/moamendahshann/researchdesk-ai#readme) |
-| **[NEON FIELD](https://github.com/moamendahshann/neon-hand)** | Interactive 3D neon energy controlled by hand tracking or mouse. Three.js + MediaPipe, local camera processing, and an Arabic interface. | JavaScript · Three.js · MediaPipe | **[Live demo](https://neon-hand-moamen.daringtide16.chatgpt.site/)** |
-| **[Digit Classification](https://github.com/moamendahshann/digit-classification)** | Handwritten digit classification with a scaled SVM pipeline, held-out evaluation, a majority baseline and error analysis. | Python · scikit-learn · Matplotlib | [Results &amp; method](https://github.com/moamendahshann/digit-classification#results) |
-| **[Energy Forecasting](https://github.com/moamendahshann/energy-forecasting)** | Synthetic hourly demand forecasting with chronological evaluation and a seasonal baseline. A reproducible time-series experiment. | Python · NumPy · scikit-learn | [Evaluation &amp; limits](https://github.com/moamendahshann/energy-forecasting#results) |
-| **[sentiment-lens](https://github.com/moamendahshann/sentiment-lens)** | Explainable English review sentiment analysis: TF-IDF + logistic regression from scratch, held-out and cross-domain evaluation, and private browser inference. | JavaScript | [README](https://github.com/moamendahshann/sentiment-lens#readme) |
-| **[Wine Clustering](https://github.com/moamendahshann/wine-clustering)** | Exploratory wine-data clustering with KMeans, silhouette-based model selection and PCA visualisation. | Python · scikit-learn · Matplotlib | [README](https://github.com/moamendahshann/wine-clustering#readme) |
+## تقنيات وممارسات أستخدمها في هذه المشاريع
 
-<!-- PROJECTS:END -->
+- **اللغات:** Python وJavaScript.
+- **تعلّم الآلة ومعالجة النصوص:** scikit-learn، SVM، KMeans، TF-IDF، والانحدار اللوجستي.
+- **تطبيقات وأدوات:** FastAPI، SQLite، Three.js، WebGL، وMediaPipe.
+- **التطوير:** اختبارات آلية، GitHub Actions، تجارب قابلة لإعادة التشغيل، وتوثيق حدود التقييم في المستودعات.
 
-## Tools in this portfolio
-
-**Machine learning:** Python, NumPy, Pandas, scikit-learn, classification, clustering and time-series evaluation.  
-**Applications:** FastAPI, SQLite, JavaScript, Three.js and MediaPipe.  
-**Workflow:** Git, reproducible experiments, automated checks and clear documentation of limitations.
-
-## Experience beyond the code
-
-- **India:** Python project with AIESEC and Vivekananda Global University.
-- **Egypt:** Technical support at the World Urban Forum 12 in Cairo.
-- **Oman:** Contributed to ZaYT TECH, a climate innovation concept selected among the top five projects at the Arab Youth Forum for Climate Action.
-
-## What I am developing next
-
-Deeper evaluation on real datasets, better computer-vision interactions and research tools with clear, inspectable sources.
-
-These are student portfolio projects, including AI-assisted development. The repositories distinguish implemented features, recorded results and remaining limitations.
+هذه مشاريع تعليمية ضمن ملف أعمال طالب، وليست ادعاءً بخبرة مهنية أو أنظمة منشورة للإنتاج. راجع README لكل مشروع لمعرفة طريقة التشغيل، والتقييم، والقيود الخاصة به.
